@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracy LOUNDOU | Alternante QHSE — ISE Lyon</title>
+  <meta name="description" content="Portfolio professionnel de Tracy Loundou. En recherche d'une alternance en Mastère QHSE à l'ISE de Lyon. Analyse des risques, mise à jour du DUER, enquêtes environnementales et gestion documentaire.">
+  
+  <!-- Polices Google Fonts (Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Feuilles de style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       BARRE DE NAVIGATION
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#accueil" class="brand-logo" aria-label="Accueil Tracy Loundou">
+        <span class="brand-monogram">TL</span>
+        <span>Tracy LOUNDOU</span>
+      </a>
+
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links" id="navLinksContainer">
+          <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+          <li><a href="#rythme" class="nav-link">Rythme & Mobilité</a></li>
+          <li><a href="#projets" class="nav-link">Missions & Projets</a></li>
+          <li><a href="#competences" class="nav-link">Compétences</a></li>
+          <li><a href="#parcours" class="nav-link">Parcours</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="CV_Tracy_LOUNDOU_QHSE.pdf" class="btn btn-primary" download="CV_Tracy_LOUNDOU_QHSE.pdf" target="_blank">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Mon CV (PDF)</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuToggle" aria-label="Ouvrir le menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <main>
+    <section class="hero-section" id="accueil">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <div class="hero-pill-group">
+              <span class="badge badge-status">
+                <span class="status-dot"></span>
+                En recherche d'alternance
+              </span>
+              <span class="badge badge-tag">Mastère 1 QHSE</span>
+              <span class="badge badge-tag">Rentrée 2026</span>
+            </div>
+
+            <h1 class="hero-name">Tracy LOUNDOU</h1>
+            
+            <h2 class="hero-title">Qualité, Hygiène, Sécurité & Environnement</h2>
+
+            <!-- Carte École & Admission -->
+            <div class="hero-school-card">
+              <div class="school-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              </div>
+              <div class="school-details">
+                <h4>Admise à l'ISE de Lyon</h4>
+                <p>Mastère en Management QHSE (2026 – 2027) • Rythme 2 sem. / 1 sem.</p>
+              </div>
+            </div>
+
+            <p class="hero-description">
+              Forte d'expériences pratiques en <strong>évaluation des risques (DUER)</strong> et en <strong>études environnementales de terrain</strong>, je souhaite construire avec une entreprise partenaire une démarche concrète et durable en Qualité, Hygiène, Sécurité et Environnement.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="CV_Tracy_LOUNDOU_QHSE.pdf" class="btn btn-primary" download="CV_Tracy_LOUNDOU_QHSE.pdf" target="_blank">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Télécharger mon CV</span>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>Me contacter</span>
+              </a>
+              <a href="#projets" class="btn btn-outline">
+                <span>Voir mes missions</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Portrait & Badges flottants -->
+          <div class="hero-visual-wrapper">
+            <div class="hero-portrait-frame">
+              <img src="assets/tracy-profile.jpg" alt="Photo professionnelle de Tracy Loundou" class="hero-portrait-img">
+              
+              <!-- Badge flottant 1 : Rythme -->
+              <div class="floating-badge floating-badge-rhythm">
+                <div class="float-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                </div>
+                <div class="float-text">
+                  <strong>2 sem. / 1 sem.</strong>
+                  <span>Rythme d'alternance</span>
+                </div>
+              </div>
+
+              <!-- Badge flottant 2 : Villeurbanne -->
+              <div class="floating-badge floating-badge-city">
+                <div class="float-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="float-text">
+                  <strong>Villeurbanne (69100)</strong>
+                  <span>Mobilité Métropole Lyon</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION RYTHME & CALENDRIER D'ALTERNANCE
+         ========================================================================== -->
+    <section class="section-pad section-alt" id="rythme">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Modalités de collaboration</span>
+          <h2 class="section-title">Rythme & Disponibilité</h2>
+          <p class="section-subtitle">Une organisation étudiée pour une implication opérationnelle continue et un suivi régulier de vos projets d'entreprise.</p>
+        </div>
+
+        <div class="rhythm-card">
+          <div class="rhythm-grid">
+            
+            <div class="rhythm-summary">
+              <h3>Cycle d'alternance de 3 semaines</h3>
+              <p>Ce rythme permet d'assurer une véritable continuité sur vos chantiers QHSE : audits de terrain, rédaction de procédures, animation de causeries sécurité et suivi des indicateurs.</p>
+
+              <div class="rhythm-specs">
+                <div class="spec-item">
+                  <div class="spec-label">Rythme de présence</div>
+                  <div class="spec-value">2 sem. entreprise / 1 sem. cours</div>
+                </div>
+                <div class="spec-item">
+                  <div class="spec-label">Établissement</div>
+                  <div class="spec-value">ISE Lyon</div>
+                </div>
+                <div class="spec-item">
+                  <div class="spec-label">Type de contrat</div>
+                  <div class="spec-value">Apprentissage ou Pro</div>
+                </div>
+                <div class="spec-item">
+                  <div class="spec-label">Localisation actuelle</div>
+                  <div class="spec-value">Villeurbanne (69100)</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Schéma visuel interactif -->
+            <div class="rhythm-timeline">
+              <div class="timeline-legend">
+                <span><span class="legend-dot legend-company"></span> En Entreprise (2 sem.)</span>
+                <span><span class="legend-dot legend-school"></span> À l'ISE Lyon (1 sem.)</span>
+              </div>
+
+              <div class="timeline-bars">
+                <div class="cycle-row">
+                  <span class="cycle-label">Cycle A</span>
+                  <div class="cycle-blocks">
+                    <div class="cycle-block block-company" title="Semaines 1 et 2 en entreprise">2 Semaines en Entreprise</div>
+                    <div class="cycle-block block-school" title="Semaine 3 à l'ISE">1 Sem. ISE</div>
+                  </div>
+                </div>
+
+                <div class="cycle-row">
+                  <span class="cycle-label">Cycle B</span>
+                  <div class="cycle-blocks">
+                    <div class="cycle-block block-company" title="Semaines 4 et 5 en entreprise">2 Semaines en Entreprise</div>
+                    <div class="cycle-block block-school" title="Semaine 6 à l'ISE">1 Sem. ISE</div>
+                  </div>
+                </div>
+
+                <div class="cycle-row">
+                  <span class="cycle-label">Cycle C</span>
+                  <div class="cycle-blocks">
+                    <div class="cycle-block block-company" title="Semaines 7 et 8 en entreprise">2 Semaines en Entreprise</div>
+                    <div class="cycle-block block-school" title="Semaine 9 à l'ISE">1 Sem. ISE</div>
+                  </div>
+                </div>
+              </div>
+
+              <p style="font-size: 0.82rem; color: var(--c-text-muted); text-align: center; margin-top: 0.75rem;">
+                💡 <em>Présence à temps plein en entreprise lors des périodes de congés universitaires.</em>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION PROJETS & MISSIONS RÉELLES
+         ========================================================================== -->
+    <section class="section-pad" id="projets">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Expériences concrètes</span>
+          <h2 class="section-title">Missions & Réalisations Clés</h2>
+          <p class="section-subtitle">Chaque mission a mobilisé des compétences opérationnelles vérifiables : cliquez sur une fiche pour consulter la démarche méthodologique et les résultats.</p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Projet 1 : DUER SUNNEX -->
+          <article class="project-card">
+            <div>
+              <div class="project-top">
+                <span class="project-org-badge">SUNNEX Équipement</span>
+                <span class="project-period">Déc. 2024 — Jan. 2025</span>
+              </div>
+              <h3 class="project-title">Analyse et cartographie des risques professionnels & Mise à jour du DUER</h3>
+              <p class="project-description">
+                Diagnostic terrain approfondi, évaluation des postes et actualisation intégrale du Document Unique d'Évaluation des Risques pour répondre aux normes réglementaires.
+              </p>
+              <div class="project-tags">
+                <span class="badge badge-tag">Analyse DUER</span>
+                <span class="badge badge-tag">Santé & Sécurité</span>
+                <span class="badge badge-tag">Conformité</span>
+                <span class="badge badge-tag">Plan d'actions</span>
+              </div>
+            </div>
+            <div class="project-action">
+              <button class="btn-project-detail" data-project-target="duer">
+                <span>Consulter la fiche détaillée</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Projet 2 : SEQUEN -->
+          <article class="project-card">
+            <div>
+              <div class="project-top">
+                <span class="project-org-badge">Cabinet SEQUEN</span>
+                <span class="project-period">2023 (Stage 3 mois)</span>
+              </div>
+              <h3 class="project-title">Enquêtes socioéconomiques & Étude d'impact environnemental</h3>
+              <p class="project-description">
+                Conduite d'enquêtes terrain directes, collecte et traitement de données environnementales et sensibilisation des acteurs locaux aux bonnes pratiques écologiques.
+              </p>
+              <div class="project-tags">
+                <span class="badge badge-tag">Enquêtes terrain</span>
+                <span class="badge badge-tag">RSE & Environnement</span>
+                <span class="badge badge-tag">Traitement données</span>
+                <span class="badge badge-tag">Sensibilisation</span>
+              </div>
+            </div>
+            <div class="project-action">
+              <button class="btn-project-detail" data-project-target="sequen">
+                <span>Consulter la fiche détaillée</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Projet 3 : GRCF & Gestion documentaire -->
+          <article class="project-card">
+            <div>
+              <div class="project-top">
+                <span class="project-org-badge">SUNNEX Équipement</span>
+                <span class="project-period">Mai — Juin 2024</span>
+              </div>
+              <h3 class="project-title">Gestion documentaire & Relation client-fournisseur (GRCF)</h3>
+              <p class="project-description">
+                Coordination des flux administratifs, traçabilité des pièces réglementaires, fiabilisation de la base documentaire et interface quotidienne avec les interlocuteurs internes.
+              </p>
+              <div class="project-tags">
+                <span class="badge badge-tag">Gestion documentaire</span>
+                <span class="badge badge-tag">Relation Fournisseurs</span>
+                <span class="badge badge-tag">Traçabilité</span>
+                <span class="badge badge-tag">Rigueur</span>
+              </div>
+            </div>
+            <div class="project-action">
+              <button class="btn-project-detail" data-project-target="gestion">
+                <span>Consulter la fiche détaillée</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION COMPÉTENCES
+         ========================================================================== -->
+    <section class="section-pad section-alt" id="competences">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Savoir-faire & Savoir-être</span>
+          <h2 class="section-title">Compétences Professionnelles</h2>
+          <p class="section-subtitle">L'alliance d'une rigueur d'analyse technique et d'une aisance relationnelle pour animer la culture sécurité et environnementale.</p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- QHSE & Réglementation -->
+          <div class="skill-category-card">
+            <div class="skill-header">
+              <div class="skill-icon-circle">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <h3>Qualité & Sécurité (QHSE)</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Analyse des risques professionnels :</strong> Cartographie des postes et cotation des aléas.</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Mise à jour du DUER :</strong> Intégration des évolutions et conformité Code du Travail.</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Démarche de prévention :</strong> Élaboration de plans d'actions préventives et correctives.</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Sensibilisation aux consignes :</strong> Diffusion des règles de sécurité et causeries.</div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Environnement & RSE -->
+          <div class="skill-category-card">
+            <div class="skill-header">
+              <div class="skill-icon-circle">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
+              </div>
+              <h3>Environnement & RSE</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Enquêtes de terrain :</strong> Diagnostic socio-économique et impact écologique.</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Collecte & Traitement de données :</strong> Structuration d'échantillons et restitution synthétique.</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Sensibilisation environnementale :</strong> Pédagogie auprès des parties prenantes.</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Culture Développement Durable :</strong> Solide bagage universitaire acquis en Licence DD.</div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Gestion & Outils -->
+          <div class="skill-category-card">
+            <div class="skill-header">
+              <div class="skill-icon-circle">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              </div>
+              <h3>Gestion, Outils & Méthodes</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Gestion documentaire :</strong> Traçabilité, archivage méthodique et procédures qualité.</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Canva :</strong> Création de supports visuels clairs (affiches sécurité, infographies).</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Relation client-fournisseur (GRCF) :</strong> Suivi administratif rigoureux et coordination.</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Pack Office :</strong> Excel (suivi d'indicateurs), Word (comptes-rendus), PowerPoint.</div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Relationnel & Langues -->
+          <div class="skill-category-card">
+            <div class="skill-header">
+              <div class="skill-icon-circle">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <h3>Communication & Langues</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Communication efficace :</strong> Écoute active et vulgarisation auprès des équipes opérationnelles.</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Coordination interne :</strong> Travail en transversalité avec les différents services.</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Français :</strong> Langue maternelle (expression orale et écrite irréprochable).</div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-check">✓</span>
+                <div><strong>Anglais :</strong> Notions professionnelles.</div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION PARCOURS ACADÉMIQUE & FORMATIONS
+         ========================================================================== -->
+    <section class="section-pad" id="parcours">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Progression académique</span>
+          <h2 class="section-title">Formations & Diplômes</h2>
+          <p class="section-subtitle">Un parcours cohérent reliant gestion d'entreprise, développement durable et spécialisation en management QHSE.</p>
+        </div>
+
+        <div class="timeline-container">
+          
+          <!-- 2026 - 2027 : Mastère 1 QHSE -->
+          <div class="timeline-entry featured">
+            <div class="timeline-marker">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-year">2026 – 2027 (En cours d'admission)</span>
+                <span class="timeline-location">Lyon (69)</span>
+              </div>
+              <h4>Mastère 1 QHSE — En Alternance</h4>
+              <div class="timeline-institution">ISE Lyon (Institut Supérieur de l'Environnement)</div>
+              <p class="timeline-desc">
+                Approfondissement du management de la sécurité, santé au travail, normes ISO (14001, 45001, 9001), réglementation environnementale et stratégie RSE. Rythme : 2 semaines en entreprise / 1 semaine en cours.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2025 - 2026 : Bachelor 3 Responsable Développement -->
+          <div class="timeline-entry">
+            <div class="timeline-marker">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-year">2025 – 2026</span>
+                <span class="timeline-location">Limonest (69)</span>
+              </div>
+              <h4>Bachelor 3 — Responsable du Développement des Activités (RNCP Niv. 6)</h4>
+              <div class="timeline-institution">Institut Elton Mayo — PEM Education</div>
+              <p class="timeline-desc">
+                Gestion de projets, pilotage des activités opérationnelles, optimisation organisationnelle et développement stratégique.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2023 - 2025 : BTS Gestion PME -->
+          <div class="timeline-entry">
+            <div class="timeline-marker">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-year">2023 – 2025</span>
+                <span class="timeline-location">Aix-en-Provence (13)</span>
+              </div>
+              <h4>BTS Gestion de la PME (1ère & 2ème année)</h4>
+              <div class="timeline-institution">Lycée Saint Éloi</div>
+              <p class="timeline-desc">
+                Gestion des risques d'entreprise, relation clients et fournisseurs (GRCF), administration du personnel, rigueur documentaire et communication professionnelle.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2020 - 2023 : Licence Développement Durable -->
+          <div class="timeline-entry">
+            <div class="timeline-marker">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-year">2020 – 2023</span>
+                <span class="timeline-location">Libreville, Gabon</span>
+              </div>
+              <h4>Licence en Développement Durable</h4>
+              <div class="timeline-institution">Université Franco-Gabonaise Saint-Exupéry</div>
+              <p class="timeline-desc">
+                Principes fondamentaux de l'écologie, études d'impacts environnementaux, gestion raisonnée des ressources, économie circulaire et enjeux climatiques mondiaux.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Atouts humains / Centres d'intérêt -->
+        <div class="hobbies-wrapper">
+          <div class="hobbies-header">
+            <h3>Centres d'intérêt & Qualités personnelles</h3>
+            <p style="font-size: 0.9rem; color: var(--c-text-muted);">Des activités qui développent patience, rigueur et créativité au quotidien.</p>
+          </div>
+          <div class="hobbies-grid">
+            <div class="hobby-card">
+              <div class="hobby-icon">📖</div>
+              <h4>Lecture</h4>
+              <p>Curiosité intellectuelle, capacité de concentration prolongée et veille continue.</p>
+            </div>
+            <div class="hobby-card">
+              <div class="hobby-icon">🧁</div>
+              <h4>Pâtisserie</h4>
+              <p>Rigueur du dosage, respect strict des processus et sens de la précision.</p>
+            </div>
+            <div class="hobby-card">
+              <div class="hobby-icon">🎨</div>
+              <h4>Dessin</h4>
+              <p>Sens du détail visuel, créativité et conception de supports pédagogiques soignés.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION CONTACT & ESPACE RECRUTEUR
+         ========================================================================== -->
+    <section class="section-pad section-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Échangeons sur votre projet</span>
+          <h2 class="section-title">Espace Recruteur & Contact</h2>
+          <p class="section-subtitle">Vous recherchez une alternante rigoureuse et immédiatement mobilisable en QHSE ? Parlons-en !</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Volet Coordonnées Directes -->
+          <div class="contact-info-panel">
+            <div>
+              <div class="contact-info-header">
+                <h3>Tracy LOUNDOU</h3>
+                <p>Disponible pour échanger de vive voix sur vos besoins d'alternance QHSE et convenir d'un premier entretien.</p>
+              </div>
+
+              <div class="contact-direct-items">
+                <!-- Email avec bouton copie -->
+                <div class="contact-direct-item">
+                  <div class="contact-direct-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  </div>
+                  <div class="contact-direct-text">
+                    <label>Adresse e-mail</label>
+                    <a href="mailto:tracyloundou@gmail.com">tracyloundou@gmail.com</a>
+                  </div>
+                </div>
+
+                <!-- Téléphone -->
+                <div class="contact-direct-item">
+                  <div class="contact-direct-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  </div>
+                  <div class="contact-direct-text">
+                    <label>Téléphone portable</label>
+                    <a href="tel:0744274810">07 44 27 48 10</a>
+                  </div>
+                </div>
+
+                <!-- Ville -->
+                <div class="contact-direct-item">
+                  <div class="contact-direct-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  </div>
+                  <div class="contact-direct-text">
+                    <label>Localisation</label>
+                    <span>Villeurbanne (69100) — Mobilité Région Lyonnaise</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Boutons d'action rapide dans le panneau -->
+            <div class="contact-btn-box">
+              <a href="CV_Tracy_LOUNDOU_QHSE.pdf" class="btn btn-white" download="CV_Tracy_LOUNDOU_QHSE.pdf" target="_blank">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Télécharger le CV complet (PDF)</span>
+              </a>
+              <button class="btn btn-translucent" data-copy-value="tracyloundou@gmail.com" data-copy-label="E-mail">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span>Copier l'adresse e-mail</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Formulaire direct -->
+          <div class="contact-form-panel">
+            <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--c-text-main); margin-bottom: 0.5rem;">
+              Envoyez-moi un message direct
+            </h3>
+            <p style="font-size: 0.9rem; color: var(--c-text-muted); margin-bottom: 1.5rem;">
+              Remplissez ce formulaire pour m'adresser directement un message par e-mail.
+            </p>
+
+            <form id="contactDirectForm">
+              <div class="form-group">
+                <label for="formName">Votre Nom / Entreprise *</label>
+                <input type="text" id="formName" class="form-control" placeholder="Ex: Jean Dupont (Entreprise XYZ)" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formEmail">Votre E-mail de contact *</label>
+                <input type="email" id="formEmail" class="form-control" placeholder="jean.dupont@entreprise.fr" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formSubject">Objet du message</label>
+                <input type="text" id="formSubject" class="form-control" placeholder="Proposition d'alternance QHSE" value="Proposition d'alternance QHSE">
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage">Votre Message *</label>
+                <textarea id="formMessage" class="form-control" rows="4" placeholder="Bonjour Tracy, nous recrutons une alternante QHSE pour la rentrée..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                <span>Envoyer mon message</span>
+              </button>
+
+              <div class="form-notice">
+                🔒 Vos informations sont uniquement utilisées pour échanger dans le cadre professionnel du recrutement.
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       PIED DE PAGE (FOOTER)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-copy">
+        © 2026 <strong>Tracy LOUNDOU</strong> • Future Alternante Mastère 1 QHSE à l'ISE de Lyon • Villeurbanne.
+      </div>
+      <a href="#accueil" class="footer-back-to-top">
+        <span>Haut de page</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALE PROJET INTERACTIVE (Volet pop-up détaillé)
+       ========================================================================== -->
+  <div class="modal-overlay" id="projectModalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-container">
+      <div class="modal-header">
+        <span class="section-eyebrow" style="margin-bottom: 0;">Fiche de mission détaillée</span>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Fermer la boîte de dialogue">✕</button>
+      </div>
+      <div class="modal-body" id="modalDynamicContent">
+        <!-- Le contenu est injecté dynamiquement par app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast Copie -->
+  <div class="toast-notice" id="toastNotice" role="status" aria-live="polite">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#69f0ae" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toastMessage">Information copiée dans le presse-papiers !</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
